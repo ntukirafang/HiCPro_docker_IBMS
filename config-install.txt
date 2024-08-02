@@ -1,0 +1,11 @@
+
+#########################################################################
+## Paths and Settings  - Start editing here !
+#########################################################################
+
+PREFIX = /nfs/NAS/reads/mouse/DR_SP_Wang_HiC/HiC-Pro_3.1.0
+BOWTIE2_PATH = /home/jimmyfang/anaconda3/envs/hic-pro/bin
+SAMTOOLS_PATH = /home/jimmyfang/anaconda3/envs/hic-pro/bin
+R_PATH = /usr/local/bin
+PYTHON_PATH = /home/jimmyfang/anaconda3/envs/hic-pro/bin
+CLUSTER_SYS = TORQUE

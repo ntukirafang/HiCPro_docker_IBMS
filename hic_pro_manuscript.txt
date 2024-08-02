@@ -1,0 +1,24 @@
+#Step1 Docker load compressed file to read the docker environment
+docker load  -i hic_pro_sample_tar.tar
+
+#Step2 Create a new container from images(compressed load)
+docker run --name hic_pro_container  -idt hic_pro_sample_images
+
+#Step3 Enter in container
+docker exec -it hic_pro_container /bin/bash
+
+#Step4 Find conda virtual environment
+conda env list
+
+#Step5 Enter conda virtual environment
+conda activate hic_pro
+
+#Step6 Enter test file folder
+cd /root/HiCPro_testdata
+
+#Step7 Code
+./HiC-Pro-3.1.0/bin/HiC-Pro 
+-i /root/HiCPro_testdata/test_data(input directory) 
+-o /root/HiCPro_testdata//HIC_PRO_OUT(output directory) 
+-c ./config-test_latest.txt
+

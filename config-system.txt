@@ -1,0 +1,17 @@
+#######################################################################
+## HiC-Pro - System settings
+#######################################################################
+#######################################################################
+## Required Software - Specified the DIRECTORY name of the executables
+## If not specified, the program will try to locate the executable
+## using the 'which' command
+#######################################################################
+R_PATH = /usr/local/bin
+BOWTIE2_PATH = /home/jimmyfang/anaconda3/envs/hic-pro/bin
+SAMTOOLS_PATH = /home/jimmyfang/anaconda3/envs/hic-pro/bin
+PYTHON_PATH = /home/jimmyfang/anaconda3/envs/hic-pro/bin
+INSTALL_PATH = /nfs/NAS/reads/mouse/DR_SP_Wang_HiC/HiC-Pro_3.1.0
+SCRIPTS = /nfs/NAS/reads/mouse/DR_SP_Wang_HiC/HiC-Pro_3.1.0/scripts
+SOURCES = /nfs/NAS/reads/mouse/DR_SP_Wang_HiC/HiC-Pro_3.1.0/scripts/src
+ANNOT_DIR = /nfs/NAS/reads/mouse/DR_SP_Wang_HiC/HiC-Pro_3.1.0/annotation
+CLUSTER_SCRIPT = TORQUE
